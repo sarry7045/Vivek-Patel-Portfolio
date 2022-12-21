@@ -100,14 +100,11 @@ header a {
     display: block;
     font-size: 25px;
     background: none;
-    position: relative;
-    top: -20px;
-    left: 50px;
   }
   .hideMenu {
     display: block;
     position: absolute;
-    top: 8vh;
+    top: 10vh;
     left: 0;
     width: 100%;
     background-color: var(--headingColor);
@@ -122,7 +119,7 @@ section {
 .flex {
   display: flex;
 }
- 
+
 /*---------hero-------------*/
 .hero {
   position: relative;
@@ -149,7 +146,7 @@ section {
   font-weight: 600;
   color: var(--primaryColor);
 }
- 
+
 /*---------hero-------------*/
 .heading {
   font-size: 30px;
@@ -158,7 +155,7 @@ section {
   text-align: center;
   margin-bottom: 60px;
 }
- 
+
 /*---------about-------------*/
 .about .primaryBtn {
   margin-left: 20px;
@@ -173,14 +170,14 @@ section {
 .right {
   width: 65%;
 }
- 
+
 /*---------about-------------*/
 .grid3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
- 
+
 /*---------services-------------*/
 .services .box {
   background-color: var(--primaryBackground);
@@ -199,7 +196,7 @@ section {
   place-items: center;
   text-align: center;
 }
- 
+
 /*---------counter-------------*/
 .counter {
   margin-top: 80px;
@@ -214,7 +211,7 @@ section {
 }
 /*---------counter-------------*/
 /*---------portfolio-------------*/
- 
+
 article {
   margin-top: 50px;
   margin-bottom: 80px;
@@ -366,10 +363,7 @@ footer i {
   .heroContent {
     max-width: 80%;
   }
-  .heroContent h1 {
-    font-size: 50px;
-    font-weight: 500;
-  }
+
   .hero::after {
     /* background-image: url("../public/images/home-bg.png"); */
     background-size: cover;
@@ -381,14 +375,6 @@ footer i {
     height: auto;
     padding-top: 50px;
   }
-  .blog {
-    position: relative;
-    top: 250px;
-  }
-  .contact {
-    position: relative;
-    top: 300px;
-  }
   .contact .flexsb,
   .about .flex {
     flex-direction: column;
@@ -396,21 +382,13 @@ footer i {
   .right,
   .left {
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
   }
   .grid4,
   .grid3 {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   article {
     margin: 0;
-    position: relative;
-    top: 300px;
     padding-bottom: 50px;
   }
-  article .container .catButton {
-    display: none;
-  }
 }
- 
